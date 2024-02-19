@@ -1,6 +1,6 @@
 # QuanutmComputing</br>
 # Deutsch–Jozsa algorithm</br>
-![Alt text](/DJA.jpg/?raw=true "Optional Title")</br>
+![Alt text](Pictures/DJA.jpg/?raw=true "DJA")</br>
 ### Intuition</br>
 In the given scenario, if there were no oracle, the measurement for all qubits (except the last one) would result in the '0' state. This is because the Hadamard gate is its own unitary, and the oracle, which takes the input |x>|0> and outputs |x>|f(x)>, is also unitary due to the computability of f_inverse(x).
 </br>
