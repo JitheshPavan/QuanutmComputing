@@ -1,7 +1,12 @@
 # QuanutmComputing</br>
-##Deutsch–Jozsa algorithm</br>
-![Alt text](/DJA.jpg/?raw=true "Optional Title")
-###Intuition
-In the picture above, what if there was no oracle? We will get '0' state as the measurement for all the qubits(except the last one). This is the case because Hadamard gate its own unitary. Oracle takes the input |x>|0> and outputs |x>|f(x)>. This is unitary because f_inverse(x) is computable.
-
-All though first x qubits do not change, the fact that they have been entangled with the last qubit changes things. The output is no more 'off' for these qubits. This is due the fact that entanglement causes scalar values to jump around in the tensor product space that has been created. So the point is that entanglement causes change in output. So what if there is no entanglement? This is the case for constant function. The constant function do not depend on x. Therefore, in a sense, there is no entanglement between x and the last qubit. Thereby we get output off(0) for all x qubits. 
+#Deutsch–Jozsa algorithm</br>
+![Alt text](/DJA.jpg/?raw=true "Optional Title")</br>
+###Intuition</br>
+Your paragraph is mostly clear and logically structured, but there are a few grammatical improvements that can be made for clarity and coherence. Here's a revised version:
+</br>
+</br>
+"In the given scenario, if there were no oracle, the measurement for all qubits (except the last one) would result in the '0' state. This is because the Hadamard gate is its own unitary, and the oracle, which takes the input |x>|0> and outputs |x>|f(x)>, is also unitary due to the computability of f_inverse(x).
+</br>
+</br>
+Although the first x qubits do not change, the entanglement with the last qubit alters the output. Entanglement causes scalar values to jump around in the tensor product space that has been created. The key point is that entanglement induces a change in the output. However, in the case of a constant function, where the function does not depend on x, there is, in a sense, no entanglement between x and the last qubit. Consequently, the output for all x qubits is 'off' (0)."
+</br>
